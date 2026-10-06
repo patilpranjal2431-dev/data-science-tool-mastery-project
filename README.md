@@ -1,25 +1,23 @@
-# Data Science Tool Mastery Project
+# Analytics Report & Insights Documentation
 
-Practical portfolio project covering Python, Jupyter, NumPy, Pandas, Matplotlib, Seaborn, SciPy, SQL/SQLite, and scikit-learn.
+Stakeholder-style retail analytics case study demonstrating business objective definition, KPI analysis, visual storytelling, insight generation, executive reporting, and actionable recommendations.
 
-## Workflow
-**Data → Cleaning → Feature Engineering → Visualization → Statistical Test → SQL → ML Pipeline → Evaluation**
+## Business questions
+- How is revenue performing over time?
+- Which regions/categories contribute most?
+- Which channel performs better?
+- Where are returns or satisfaction concerns?
+- What should management prioritize?
 
-The customer dataset is synthetic and contains no real customer information.
+## KPIs
+Revenue, profit, profit margin, orders, average order value, return rate, and satisfaction.
 
-## Contents
-- `Data_Science_Tool_Mastery_Project.ipynb` — complete notebook
-- `README.md` — documentation
-- `requirements.txt` — dependencies
-- `data/customer_churn_practice.csv` — synthetic practice data
-- `reports/REPORT_DESCRIPTION.md` — 200+ word submission description
-- `outputs/` — generated charts
+## Repository
+- `Analytics_Report_Insights_Documentation.ipynb`
+- `README.md`
+- `requirements.txt`
+- `data/retail_orders.csv`
+- `outputs/` charts
+- `reports/REPORT_DESCRIPTION.md`
 
-## Run
-```bash
-python -m venv .venv
-# Windows: .venv\Scripts\activate
-# macOS/Linux: source .venv/bin/activate
-pip install -r requirements.txt
-jupyter notebook
-```
+The dataset is synthetic and contains no real customer information.
